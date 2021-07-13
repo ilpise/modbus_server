@@ -1,0 +1,6 @@
+version: '3'
+services:
+  machine1:
+    image: tcp_test_server:latest
+    ports:
+      - 5021:5020
